@@ -246,8 +246,10 @@ padding-top: 20px;
     
 
     body{
-        margin:auto;
+        margin: 0 auto;
+        padding: 0 auto;
         background-color: white;
+        overflow-x: hidden;
     }
     
     .container{
