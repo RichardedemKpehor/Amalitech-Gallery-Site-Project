@@ -46,6 +46,7 @@
     }
     
     .head-img{
+        background-image: url(./assets/desktop/image-hero.jpg);
     height: 800px;
     width: 540px;
     border-radius: 0px;
@@ -226,7 +227,7 @@ padding-top: 20px;
         fill: white;
         display: inline-block;
         padding: 5px;
-        left: 20px;
+        left: 15px;
         
      }
     
@@ -484,8 +485,10 @@ width: 280px;
     color: white;
     font-family: Outfit;
     font-size: 16px;
+    white-space: wrap;
+   
     }
-    
+   
     .social-icons, ul, li{
        position: relative;
        bottom: 10px;
@@ -496,7 +499,8 @@ width: 280px;
         fill: white;
         display: inline-block;
         padding: 5px;
-        left: 10px;
+        left: -10px;
+        right: 5px;
         
      }
     
@@ -542,6 +546,7 @@ padding: 0;
  
        }
        .header{
+        background-color: white;
        height: 110px;
        width: 375px;
        left: 16px;
@@ -550,15 +555,17 @@ padding: 0;
        
        
        }
-   div#head-img{
+   /*.head-img{
+    background-image: url(./assets/mobile/image-hero.jpg);
     width: 275px;
+    height: 240px;
     padding: 0;
-   }
+   }*/
     
-     #head-img, img{
-        background: url(./assets/mobile/image-hero@2x.jpg);
-        background: no-repeat;
-        background-size: cover;
+     .head-img{
+        background-image: url(./assets/mobile/image-hero.jpg);
+        /*background-image: no-repeat;
+        background-image: cover;*/
         height: 240px;
         width: 400px;
         left: 0px;
@@ -571,8 +578,6 @@ padding: 0;
     }
 
      .header>h1{
-       
-       
         font-family: Big Shoulders Display;
 font-size: 60px;
 font-weight: 900;
@@ -680,7 +685,7 @@ position: absolute;
 height: 320px;
 width: 343px;
 left: 8px;
-bottom: 900px;
+bottom: 0px;
 border-radius: 0px;
 overflow-x: hidden;
 }
@@ -690,7 +695,7 @@ overflow-x: hidden;
     width: 343px;
     height: 293px;
     left: 10px;
-    top: 400px;
+    top: 350px;
 }
 .bottom-info>.content2{
     font-family: Big Shoulders Display;
@@ -718,10 +723,6 @@ footer{
 overflow-x: hidden;
 
 
-
-   
-    
-
 }
 
 .footer-details{
@@ -730,7 +731,7 @@ overflow-x: hidden;
 text-align: left;
 border-radius: 0px;
 bottom: 0px;
-padding: 0 0 20px 0;
+padding: 0 0 15px 0;
 overflow-y: hidden;
 overflow-x: hidden;
 
@@ -755,7 +756,7 @@ font-weight: 300;
 line-height: 26px;
 text-align: left;
 position: relative;
-left: 30px;
+left: 20px;
 white-space: nowrap;
 
 
@@ -772,7 +773,8 @@ white-space: nowrap;
      fill: white;
      display: inline-block;
      padding: 5px;
-     left: 5px;
+     left: 0px;
+    
      
   }
 
