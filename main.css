@@ -486,7 +486,14 @@ width: 280px;
     font-family: Outfit;
     font-size: 16px;
     white-space: wrap;
+    width: 300px;
+        position: relative;
+        font-size: 19px;
+        line-height: 22px;
    
+    }
+    .footer-details > p >br{
+        content: " ";
     }
    
     .social-icons, ul, li{
@@ -500,7 +507,7 @@ width: 280px;
         display: inline-block;
         padding: 5px;
         left: -10px;
-        right: 5px;
+        right: 10px;
         
      }
     
@@ -532,8 +539,6 @@ width: 280px;
         margin: 0px;
         width: 100%;
         overflow-x: hidden;
-        
-       
     }
 
     .container{
@@ -555,12 +560,7 @@ padding: 0;
        
        
        }
-   /*.head-img{
-    background-image: url(./assets/mobile/image-hero.jpg);
-    width: 275px;
-    height: 240px;
-    padding: 0;
-   }*/
+  
     
      .head-img{
         background-image: url(./assets/mobile/image-hero.jpg);
@@ -624,7 +624,7 @@ letter-spacing: 0px;
     left: 20px;
     top: 800px;
     border-radius: 0px;
-    /*padding: 120px 16px 0px 16px;*/
+   
   
     
     
@@ -713,7 +713,15 @@ font-weight: 300;
 line-height: 28px;
 letter-spacing: 0px;
 text-align: left;
+width: 250px;
+position: relative;
+bottom: 10px;
 
+
+}
+
+.bottom-info>.paragraph_3>br{
+    content: " ";
 }
  
 footer{
@@ -753,14 +761,17 @@ padding-top: 48px;
 font-family: Outfit;
 font-size: 14px;
 font-weight: 300;
-line-height: 26px;
+line-height: 22px;
 text-align: left;
+left: 30px;
+width: 300px;
 position: relative;
-left: 20px;
-white-space: nowrap;
 
 
+}
 
+.footer-details > p > br{
+    content: " ";
 }
 
 .social-icons, ul, li{
@@ -773,7 +784,7 @@ white-space: nowrap;
      fill: white;
      display: inline-block;
      padding: 5px;
-     left: 0px;
+     left: 5px;
     
      
   }
